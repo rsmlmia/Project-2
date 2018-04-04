@@ -1,0 +1,38 @@
+.background    { background: rgb(135, 206, 235);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 51, 0); }
+.wall          { background: rgb(255, 255, 102);}
+
+.actor  { position: absolute;  }
+.player { background-image: url("images/walrus.png");
+		  background-size: 30px 30px;
+		  }
+.coin 	{ background-image: url("images/clam.gif");
+		  background-size: 12px 12px;
+		  }
+.jump   {
+		 background-image: url("images/jump.png");
+		 background-size: 12px 12px;
+	
+}
+.portal {
+		background-image: url("images/portal.png");
+		background-size: 20px 20px;
+	
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("images/walrus-face.png");
+  background-size: 30px 30px;
+}
+.won .player {
+  background-image: url("images/win-face.png");
+}
